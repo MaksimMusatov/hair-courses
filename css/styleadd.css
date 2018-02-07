@@ -1,0 +1,255 @@
+.banner-area {
+  padding: 0;
+  border-top: 4px solid #d24a45;
+}
+
+.banner-area h1 {
+  text-align: center;
+  margin: 10px 0;
+  font: 48px/48px henc-bold-hen;
+}
+
+.banner-area img,
+.home-back img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.about-exp {
+  overflow: hidden;
+  margin-bottom: 48px;
+}
+
+.about-exp h2 {
+  font: 30px/48px Arial, Helvetica, sans-serif;
+  margin-top: 45px;
+}
+
+.about-exp p {
+  font: 20px/48px Arial, Helvetica, sans-serif;
+  margin-bottom: 48px;
+}
+
+.bottom-line {
+  border-bottom: 4px solid #d24a45;
+}
+
+.work-time {
+  margin-bottom: 48px;
+  padding-bottom: 55px;
+}
+
+.time-list {
+  margin-left: -24px;
+  font: 20px/36px 'heliosthinregular', Arial, Helvetica, sans-serif;
+}
+
+.time-list li {
+  padding-left: 24px;
+  background: url('../img/new_img/bul-01.png') 0 11px no-repeat;
+}
+
+.call-back {
+  font: 33px/33px 'heliosthinregular', Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.call-back strong {
+  font-family: 'helveticaneuecyrbold', Arial, Helvetica, sans-serif;
+}
+
+.form-number {
+  margin-bottom: 48px;
+  text-align: center;
+  font: 44px/53px 'helveticaneuecyrmedium', Arial, Helvetica, sans-serif;
+}
+
+.form-number a {
+  margin-left: 25px;
+}
+
+.form-back .consultant {
+  text-align: center;
+  font: 30px/30px 'heliosthinregular', Arial, Helvetica, sans-serif;
+  margin-top: 48px;
+}
+
+.form-back {
+  padding: 35px 0;
+  background-color: #faedec;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  margin: 0 0 17px;
+}
+
+.txt,
+.form-back select {
+  margin: 44px 0 0 0;
+  padding-left: 34px;
+  height: 60px;
+  border-radius: 10px/25px;
+  -webkit-border-radius: 10px/25px;
+  -moz-border-radius: 10px/25px;
+  background: #ffffff;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  border: none;
+  -webkit-appearance: none;
+  font: 18px/30px 'heliosthinregular', Arial, Helvetica, sans-serif;
+}
+
+.form-back .form-conf {
+  font: 14px/30px 'helveticaneuecyrmedium', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.form-back .form-conf input {
+    margin-top: 55px;
+}
+
+.form-back .form-button {
+  display: block;
+  width: 425px;
+  height: 66px;
+  margin: 43px auto 32px;
+  text-align: center;
+  font: 30px/66px 'helveticaneuecyrbold', Arial, Helvetica, sans-serif;
+  background-color: #d24a45;
+  color: #000;
+  border: none;
+  border-radius: 17px/35px;
+  -webkit-border-radius: 17px/35px;
+  -moz-border-radius: 17px/35px;
+  text-decoration: none;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.form-back .form-button:hover,
+.form-back .form-button:focus,
+.home-button:hover,
+.home-button:focus {
+  text-decoration: none;
+  background-color: #d32f2f;
+  color: #e0f7fa;
+}
+
+.home-button {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 480px;
+  margin-left: -240px;
+  height: 75px;
+  text-align: center;
+  font: 30px/75px 'helveticaneuecyrmedium', Arial, Helvetica, sans-serif;
+  background-color: #ecd0d0;
+  color: #000;
+  border-radius: 30px/17px;
+  -webkit-border-radius: 30px/17px;
+  -moz-border-radius: 30px/17px;
+  text-decoration: none;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.text-footer {
+  text-align: center;
+  font: 22px/80px 'helveticaneuecyrroman', Arial, Helvetica, sans-serif;
+}
+
+.footer-logo {
+  display: block;
+  overflow: hidden;
+}
+
+.footer-cont {
+  padding-top: 40px;
+}
+
+@media (max-width: 969px) {
+  .work-time img {
+    width: 100%;
+  }
+
+  .work-time br {
+    display: none;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .about-exp {
+    margin-bottom: 26px;
+  }
+
+  .about-exp p,
+  .work-time li {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .about-exp h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 25px;
+  }
+
+  .time-list li {
+    padding-left: 20px;
+    background: url('../img/new_img/bul-01.png') 0 5px no-repeat;
+  }
+
+  .form-number {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 20px -15px;
+  }
+
+  .home-back .home-button,
+  .form-back .form-button {
+      width: 90%;
+      position: static;
+      margin-left: 5%;
+      font-size: 28px;
+    }
+
+  .home-back img {
+      display: none;
+    }
+
+  .small-red-text {
+    display: block;
+    text-align: center;
+  }
+
+  .no-border-mobile {
+    border-bottom: none;
+  }
+
+  .form-back {
+    padding: 5px 0;
+  }
+
+  .txt,
+  .form-back select {
+    margin-top: 20px;
+  }
+
+  .form-back .consultant {
+    text-align: center;
+    font-size: 26px;
+    line-height: 26px;
+    margin-top: 5px;
+  }
+
+}
